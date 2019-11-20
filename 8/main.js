@@ -5,17 +5,26 @@ var numero = prompt('digita un numero di 4 cifre');
 somma = 0;
 for (var i = 0; i < numero.length; i++) {
   somma = parseInt(somma) + parseInt(numero[i]);
-  
 }
   console.log(somma);
-// var numeri = [];
-// numeri.push(numero);
-// console.log(numeri);
-// numero = numero.split('');
-// console.log(numero);
-//
-//
-// function myFunc(total, num) {
-//   return total + num;
-// }
-// console.log(numeri.reduce(myFunc));
+
+  //ESERCIZIO JSNACKS-9 QUI SOTTO:
+  //L'HO INSERITO QUI POICHè NON MI HA CARICATO LA CARTELLA N.9 IN GITHUB
+  // Calcola la somma e la media dei primi 10 numeri.
+
+  somma = 0;
+  for (var i = 1; i <= 10; i++) {
+    somma = somma + i;
+    console.log(i);
+  }
+  console.log('la somma è: ' + somma);
+
+  media = 0;
+  for (var i = 1; i <= 10; i++) {
+    media = media + i / 10;
+    console.log(i);
+  }
+  console.log('la media è: ' + media);
+
+  // L'HO PUSHATO MA NON SONO SICURO CHE SIA GIUSTO...
+  //CI HO MESSO TROPPO POCO TEMPO E SECONDO ME C'E' QUALCOSA CHE NON QUADRA! XD
